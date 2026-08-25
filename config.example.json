@@ -1,0 +1,47 @@
+{
+  "email": {
+    "sender_address": "your.email@gmail.com",
+    "sender_app_password": "xxxx xxxx xxxx xxxx",
+    "recipient_address": "your.email@gmail.com"
+  },
+  "resy": {
+    "api_key": "YOUR_RESY_API_KEY",
+    "auth_token": "YOUR_RESY_AUTH_TOKEN"
+  },
+  "check_times": [
+    "09:55",
+    "10:00",
+    "10:05",
+    "23:55",
+    "00:00",
+    "00:05"
+  ],
+  "watchlist": [
+    {
+      "name": "Example Tock Restaurant",
+      "platform": "tock",
+      "slug": "restaurant-slug-from-url",
+      "party_size": 2,
+      "note": "Found on exploretock.com/restaurant-slug-from-url"
+    },
+    {
+      "name": "Example OpenTable Restaurant",
+      "platform": "opentable",
+      "slug": "restaurant-name-city",
+      "party_size": 2,
+      "note": "Found on opentable.com/r/restaurant-name-city"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Example Resy Restaurant",
+      "platform": "resy",
+      "venue_id": "12345",
+      "slug": "venues/restaurant-slug",
+      "city": "washington-dc",
+      "party_size": 2,
+      "target_date": "2026-12-31",
+      "preferred_times": ["6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM"]
+    }
+  ]
+}
