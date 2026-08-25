@@ -1,8 +1,10 @@
 # Table Scout
 
-A pair of Python scripts that automate restaurant reservation hunting on Resy — built with Claude, iterated through real use.
+A pair of Python scripts that hunt restaurant reservations across Resy, OpenTable, and Tock — built with Claude, iterated through real use.
 
-**Monitor** watches specific restaurants and emails you the moment a slot opens on your target date. **Scout** runs every Monday morning, scans Resy for DC restaurants (cross-referencing Eater DC for new openings and must-visits), checks Thursday–Sunday evening availability for the next 8 weeks, and emails a formatted report. OpenTable and Tock restaurants that can't be automated are covered by a one-click deep-link watchlist.
+**Monitor** watches specific restaurants and emails you the moment a slot opens on your target date. **Scout** runs every Monday morning, discovers new and notable restaurants, checks Thursday–Sunday evening availability for the next 8 weeks on Resy, and emails a formatted report. OpenTable and Tock are included via a one-click deep-link watchlist (both platforms block automation — contributions welcome).
+
+> **Current state:** Resy automation is fully working. OpenTable and Tock support is a watchlist workaround — the goal is full automation as the platforms evolve or contributors find new approaches.
 
 ---
 
