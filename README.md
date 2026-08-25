@@ -143,6 +143,18 @@ Both platforms block automated access. The scout handles this with a pre-configu
 
 ---
 
+## Known limitations
+
+This started as a personal tool and grew through real use, so it has rough edges:
+
+- OpenTable and Tock block automation, so they run through a manual watchlist with one-click deep links rather than full monitoring
+- The weekly email's Resy links sometimes point to the wrong page or error out — the availability check is reliable, the deep-linking is not fully hardened
+- Built and tested on macOS with launchd; other platforms need a different scheduler
+
+Issues and PRs welcome, especially on the OpenTable/Tock automation and the email link reliability.
+
+---
+
 ## Built with
 
 Python · Selenium · BeautifulSoup4 · Gmail SMTP · macOS launchd
