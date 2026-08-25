@@ -14,6 +14,10 @@ venv/
 .venv/
 env/
 
+# Debug artifacts
+resy_debug.html
+*_debug.html
+
 # Logs
 *.log
 scout.log

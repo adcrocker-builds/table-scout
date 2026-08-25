@@ -8,11 +8,11 @@
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python3</string>
-        <string>/Users/angeladcrocker/Desktop/ReservationMonitor/weekly_scout.py</string>
+        <string>/Users/YOUR_USERNAME/table-scout/weekly_scout.py</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/angeladcrocker/Desktop/ReservationMonitor</string>
+    <string>/Users/YOUR_USERNAME/table-scout</string>
 
     <!-- Run every Monday at 7:00 AM -->
     <key>StartCalendarInterval</key>
@@ -26,9 +26,9 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/Users/angeladcrocker/Desktop/ReservationMonitor/scout.log</string>
+    <string>/Users/YOUR_USERNAME/table-scout/scout.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/angeladcrocker/Desktop/ReservationMonitor/scout_errors.log</string>
+    <string>/Users/YOUR_USERNAME/table-scout/scout_errors.log</string>
 </dict>
 </plist>
