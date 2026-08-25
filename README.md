@@ -151,7 +151,7 @@ This started as a personal tool and grew through real use, so it has rough edges
 - The weekly email's Resy links sometimes point to the wrong page or error out — the availability check is reliable, the deep-linking is not fully hardened
 - Built and tested on macOS with launchd; other platforms need a different scheduler
 
-Issues and PRs welcome, especially on the OpenTable/Tock automation and the email link reliability.
+I built this to learn and improve my AI fluency, not as an actively maintained project — so I may not respond to issues or PRs. That said, it's MIT licensed, so fork it freely and take it wherever you want.
 
 ---
 
