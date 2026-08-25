@@ -153,6 +153,8 @@ This started as a personal tool and grew through real use, so it has rough edges
 
 I built this to learn and improve my AI fluency, not as an actively maintained project — so I may not respond to issues or PRs. That said, it's MIT licensed, so fork it freely and take it wherever you want.
 
+If you build something with this, I'd love to hear about it — tag me on [LinkedIn](https://www.linkedin.com/in/angela-d-crocker/) or drop a note.
+
 ---
 
 ## Built with
